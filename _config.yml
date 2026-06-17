@@ -8,11 +8,11 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: 
+url: https://amalzaman26.github.io
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: 
+baseurl: /salimuzzamansiddiqui
 # location of code, the full url to your github repository
-source-code: https://github.com/CollectionBuilder/collectionbuilder-csv
+source-code: https://github.com/amalzaman26/salimuzzamansiddiqui
 
 ##########
 # SITE SETTINGS
@@ -23,9 +23,9 @@ title: The Dr. Salimuzzaman Siddiqui Archive
 tagline: "Digital collection of materials related to Dr. Salimuzzaman Siddiqui"
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: This is a growing archive of materials by and about Dr. Salimuzzaman Siddiqui""CollectionBuilder-CSV is a template for creating digital collection exhibits using static web technology."
+description: "This is a growing archive of materials by and about Dr. Salimuzzaman Siddiqui. Please contact amalzaman9@gmail.com if you would like to contribute materials or would like to gain copyrights of my materials that I own. If you have memoties of Dr. Siddiqui"
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: idaho; history; inland northwest
+keywords: photograph; painting; wtiting
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: CollectionBuilder
 
@@ -50,17 +50,17 @@ metadata: copysuz
 #
 # Enter name and link for your organization (replacing the name and links below)
 # These values will be used in attribution and data 
-organization-name: "Center for Digital Inquiry and Learning (CDIL)"
-organization-link: https://cdil.lib.uidaho.edu/
+organization-name: Amal Zaman
+organization-link: 
 # Add logo image links if you would like them to appear in banner and footer. Delete or leave blank to remove logos.
-organization-logo-banner: https://www.lib.uidaho.edu/collectionbuilder/cdil-black.png
-organization-logo-nav: https://www.lib.uidaho.edu/collectionbuilder/cdil-white.png
+organization-logo-banner: 
+organization-logo-nav: 
 
 ##########
 # ROBOTS EXCLUDE
 #
 # set noindex to true if you do NOT want Google to index your site
-# noindex: true 
+noindex: true 
 
 ##########
 # BUILD SETTINGS 
