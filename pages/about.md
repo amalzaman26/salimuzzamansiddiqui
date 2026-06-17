@@ -5,9 +5,8 @@ permalink: /about.html
 # include CollectionBuilder info at bottom
 credits: true
 # featured-image value can be one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, no featured image will appear at top of About page.
-about-featured-image: demo_031
-# set background-position for featured image, "center", "top", "bottom"
-position: bottom
+about-featured-image: suzs_001
+position: center
 # major heading to display over featured image
 heading: About the Collection
 # paragraph text below heading in featured image
@@ -18,22 +17,31 @@ padding: 6em
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-## About CollectionBuilder CSV
+# About
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+This is a collection of archival materials by and about Dr. Salimuzzaman Siddiqui. 
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+The scale of his contributions to scientific progress, nation building, and Pakistani history is difficult to capture: Dr. Siddiqui was nominated for the [Nobel Prize](https://www.nobelprize.org/nomination/archive/show.php?id=21127) in Chemistry in 1970. He is also often described as a "renaissance man," as in addition to his academic, scientific and institutional work, he was a painter, a singer, and an intellectual who liased with the writers and artists of his time. There are, thus, many perspectives through which an archive about Dr. Siddiqui could be built and framed. Here, all I can offer, is the perspective of his great granddaughter. 
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+But his legacy lives on through his family, his students, all those he touched with his brilliance and integrity, and, of course, the mark he left on science globally and in the subcontinent specifically. I hope you will help me expand beyond my limited perspective by contributing memories, photographs, and any other materials you may have about him or that are inspired by him.   
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
+{% include feature/image.html objectid="suzs_009;suzs_008;suzs_007;suzs_006" %}
+{% include feature/image.html objectid="suzs_009" width="100" caption=false %}
 
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
+{% capture example %}
+### just thoughts
 
-{% include feature/image.html objectid="demo_001" width="75" %} 
+Hiiiiiiiii
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+- hello
+- how
+- are 
+
+more info
+{% endcapture %}
+
+{% include feature/collapse.html button="Learn More" color="success" text=example %}
+
+
+
+
