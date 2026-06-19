@@ -2,34 +2,59 @@
 # Default home page with boxes providing collection stats
 layout: page
 
-Hello, this is my home
-
-
 ---
+
 <div class="row">
-
-  <div class="col-md-8">
-
-    {% include index/description.html %}
-
-    {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="primary" %}
-    {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="primary" %}
+  <div class="col-md-8" style="margin-top: 4em;">
 
 
+    This is a collection of archival materials by and about Dr. Salimuzzaman Siddiqui.
+
+    The scale of his contributions to scientific progress, nation building, and Pakistani history is difficult to
+    capture:
+    Dr. Siddiqui was nominated for the Nobel Prize in Chemistry in 1970. He is also often described as a “renaissance
+    man,” as in addition to his academic, scientific and institutional work, he was a painter, a singer, and an
+    intellectual who liased with the writers and artists of his time. There are, thus, many perspectives through which
+    an
+    archive about Dr. Siddiqui could be built and framed. Here, all I can offer, is the perspective of his great
+    granddaughter.
+
+    But his legacy lives on through his family, his students, all those he touched with his brilliance and integrity,
+    and,
+    of course, the mark he left on science globally and in the subcontinent specifically. I hope you will help me expand
+    beyond my limited perspective by contributing memories, photographs, and any other materials you may have about him
+    or
+    that are inspired by him.
+
+    <div style="margin-top: 4em;"></div>
+    {% include feature/image.html objectid="suzs_041" %}
   </div>
-  <div class="col-md-4">
 
-    {% include index/time.html %}
+</div>
+</div>
 
-    {% include index/featured-terms.html field="location" title="Locations" btn-color="outline-secondary" %}
+<div class="col-md-8 mx-auto"></div>
+<div class="col-md-8 mx-auto">
 
-    {% include index/content.html %}
+  {% include index/description.html %}
 
-  </div>
-  <div class="col-md-12">
+  {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="primary" %}
 
-    {% include index/data-download.html %}
 
-  </div>
+</div>
+<div class="col-md-4">
+
+  {% include index/time.html %}
+
+  {% include index/featured-terms.html field="location" title="Locations" btn-color="outline-secondary" %}
+
+  {% include index/content.html %}
+
+</div>
+<div class="col-md-12">
+
+  {% include index/data-download.html %}
+
+</div>
 
 </div>
