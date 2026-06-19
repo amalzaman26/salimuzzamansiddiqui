@@ -27,31 +27,38 @@ But his legacy lives on through his family, his students, all those he touched w
 
 # Sources
 
+## Private Collection
+
 In addition to my private collection, I have acquired much of this material from across an array of websites and collections. The idea is to collect them in one location, rather than have them scattered and difficult to retrieve, links break over time and pages get taken down. 
+
+## External Collections
+
+In addition to my private collection, I have acquired much of this material from across an array of websites and collections. The idea is to collect them in one location, rather than have them scattered and difficult to retrieve, links break over time and pages get taken down. 
+
+{% capture example %}
 
 # Contact
 
-Amal Zaman
+## Amal Zaman
+
+### Email
+
 amalzaman9@gmail.com
 
+### Instagram
 
+@alifseamal
+
+## Sabah uz Zaman
+
+## Faris uz Zaman
+
+{% endcapture %}
+
+{% include feature/collapse.html button="contact" color="primary" text=example %}
 
 {% include feature/image.html objectid="suzs_009;suzs_008;suzs_007;suzs_006" %}
 {% include feature/image.html objectid="suzs_009" width="100" caption=false %}
-
-{% capture example %}
-### just thoughts
-
-Hiiiiiiiii
-
-- hello
-- how
-- are 
-
-more info
-{% endcapture %}
-
-{% include feature/collapse.html button="Learn More" color="success" text=example %}
 
 
 
